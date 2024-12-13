@@ -1,3 +1,5 @@
+[![Visite o site](https://img.shields.io/badge/%20site-green?style=for-the-badge)](https://gustavobarretolima.github.io/portif-lio/)
+
 # Gustavo Barreto Lima Bastos
 
 ### sobre
