@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gustavo Barreto Lima Bastos | Portfolio para o Lab da DIO</title>
+  <meta name="description" content="Portfólio da desenvolvedora front-end Elidiana Andrade para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="assets/images/logo-ea.png" alt="Logo EA">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Estudando </b> Desenvolvimento Front-end</h1>
+      <p>Gustavo Barreto Lima Bastos, São Paulo-SP, Estudante em busca de uma oportunidade.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/GustavoBarretoLima" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/gustavo-barreto-5341a9217/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.facebook.com/gustavo.barreto.12327/" target="_blank">
+            <i class="menu__icon bi bi-facebook"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+  </main>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/piano.png" alt="Capa Josi's Box">
+        <div class="card__body">
+          <h3 class="card__title">Piano Simulator</h3>
+          <p class="card__description">Um simulador de piano</p>
+          <ul class="card__list">
+            <li class="card__item">Toque sua musica favorita;</li>
+            <li class="card__item">Pode acessar pelo mobile;</li>
+            <li class="card__item">Uma ótima opção para entreter as crianças.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/html.svg" alt="Logo html5">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Css.svg" alt="Logo Css">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Javascript.svg" alt="Logo Javascript">
+            </li>
+
+          </ul>
+          <div class="card__buttons">
+            <a href="https://gustavobarretolima.github.io/js-music-keyboard-virtual/" class="btn btn--primary" target="_blank">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </a>
+            <a href="https://github.com/GustavoBarretoLima/js-music-keyboard-virtual?tab=readme-ov-file" class="btn" target="_blank">
+              <span>Repositório</span>
+            </a>            
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/projects/mundoInvertido.png" alt="mundo invertido">
+        <div class="card__body">
+          <h3 class="card__title">Mundo Invertido</h3>
+          <p class="card__description">O Mundo Invertido parece uma cópia do nosso mundo.</p>
+          <ul class="card__list">
+            <li class="card__item">com criaturas horrendas</li>
+            <li class="card__item">tempestades assustadoras</li>
+            <li class="card__item">muita escuridão e entidades malignas.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/html.svg" alt="Logo html5">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Css.svg" alt="Logo Css">
+          </ul>
+          <div class="card__buttons">
+            <a href="https://gustavobarretolima.github.io/semana-frontend-mundo-invertido/" class="btn btn--primary" target="_blank">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </a>
+            <a href="https://github.com/GustavoBarretoLima/semana-frontend-mundo-invertido?tab=readme-ov-file" class="btn" target="_blank">
+              <span>Repositório</span>
+            </a>  
+          </div>
+        </div>
+      </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/GustavoBarretoLima" target="_blank">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/avatar.png" alt="foto de perfil">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Gustavo Barreto. Amo tecnologia, animes, games, ainda não tive a oportunidade de ter uma experiência profissional na area da tecnologia, atualmente estou estudando bastante e trabalhando como fiscal em um mercado, estou finalizando o meu primeiro boot camp,a cada oportunidade pego o celular e estudo, seja em pausas no trabalho ou em casa.
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Basico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/gustavo-barreto-5341a9217/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Analise e Desenvolvimento de sistemas</h4>
+          <span>Jan/2019 - Fev/2022</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Eniac - Centro Universitário de Excelência em Guarulhos</span>
+          </div>
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Estudante</h4>
+          <span>Em busca da primeira vaga</span>
+          <ul class="about__list">
+            <li class="about__item">Sou esforçado;</li>
+            <li class="about__item">Quanto mais apanho, mais aprendo;</li>
+            <li class="about__item">Sempre procuro soluções sem desistir.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Versionamento de Código com Git e GitHub</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. Fev 2023. 2h.
+              </p>
+              <p>
+                O que é versionamento de código, Git e GitHub. Como instalar e configurar o Git em diferentes sistemas 
+                operacionais e como autenticar via Token e SSH. Como manusear repositórios, indo desde a criação e clonagem 
+                até o gerenciamento de branches, passando por todas as etapas de salvar, desfazer e sincronizar alterações 
+                com o repositório remoto. 
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>Desenvolva uma aplicação com Django 4.1 e deploy no Heroku</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Udemy. Abr 2024. 7.5hs.
+              </p>
+              <p>
+                Entender o funcionamento do framework Django em sua versão mais recente, a 2.0. Desenvolvido o meu primeiro sistema web on-line para ser acessado de qualquer lugar.
+                  Heroku começou a ter mensalidade por esse motivo tirei do ar.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Boot Camp DIO + RI Happy</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Digital Innovation One. Out 2024. 75hs.
+              </p>
+              <p>Construa 10 projetos Front-end com HTML, CSS e JAVASCRIPT!
+
+                Domine a trinca fundamental do bom desenvolvedor Front-End com HTML, CSS e JAVASCRIPT, com uma base estruturada de conteúdos e 10 projetos práticos, incluindo páginas web responsivas e dinâmicas com temática do Stranger Things, Spider Man, Yu-Gi-Oh e mais!
+
+                É um conteúdo completo e totalmente alinhado com o dia a dia de desenvolvedores Front-End, com mentorias dos próprios experts da Ri Happy.
+
+                Inscreva-se neste Bootcamp gratuito e comece a sua jornada rumo a 10 projetos para destacar seu portfólio e habilidades procuradas por recrutadores do mundo inteiro.
+              </p>
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/GustavoBarretoLima" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/gustavo-barreto-5341a9217/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.facebook.com/gustavo.barreto.12327/" target="_blank">
+          <i class="menu__icon bi bi-facebook"></i>
+          <span>FaceBook</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:gbarreto.bastos@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">gbarreto.bastos@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2024. Portfólio desenvolvido através do Boot Camp da 
+      <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a>  
+      <a href="https://github.com/elidianaandrade" target="_blank">Agradecimento especial a mentora Elidiana Andrade</a>.
+    </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
